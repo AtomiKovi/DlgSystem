@@ -18,6 +18,9 @@ public class DlgSystem : ModuleRules
 		bEnforceIWYU = true;
 #endif
 
+		PublicIncludePaths.Add(ModuleDirectory);
+		PublicIncludePaths.Add(ModuleDirectory);
+
 		// bUseUnity = false;
 
 		PublicDependencyModuleNames.AddRange(
